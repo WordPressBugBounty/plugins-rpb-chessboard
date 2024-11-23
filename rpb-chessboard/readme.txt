@@ -2,7 +2,7 @@
 Contributors: yo35
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YHNERW43QN49E
 Tags: chess, chessboard, fen, pgn, games
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -84,6 +84,9 @@ Please [contact the author](mailto:yo35@melix.net) for this.
 
 
 == Changelog ==
+
+= 8.0.3 (November 23, 2024) =
+* Tested up to WordPress 6.7.
 
 = 8.0.2 (August 11, 2024) =
 * Fix non-displayed blocks with themes that have unregistered jQuery (see [#239](https://github.com/yo35/rpb-chessboard/issues/293)).
