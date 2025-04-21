@@ -2,7 +2,7 @@
 Contributors: yo35
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YHNERW43QN49E
 Tags: chess, chessboard, fen, pgn, games
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -84,6 +84,10 @@ Please [contact the author](mailto:yo35@melix.net) for this.
 
 
 == Changelog ==
+
+= 8.0.5 (April 21, 2024) =
+* Tested up to WordPress 6.8.
+* Fix drag-drop not working in the diagram editor as of WordPress 6.8.
 
 = 8.0.4 (January 1, 2025) =
 * Minor fixes.
