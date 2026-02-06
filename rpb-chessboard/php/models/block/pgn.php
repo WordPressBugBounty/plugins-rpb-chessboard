@@ -2,7 +2,7 @@
 /******************************************************************************
  *                                                                            *
  *    This file is part of RPB Chessboard, a WordPress plugin.                *
- *    Copyright (C) 2013-2025  Yoann Le Montagner <yo35 -at- melix.net>       *
+ *    Copyright (C) 2013-2026  Yoann Le Montagner <yo35 -at- melix.net>       *
  *                                                                            *
  *    This program is free software: you can redistribute it and/or modify    *
  *    it under the terms of the GNU General Public License as published by    *
@@ -70,6 +70,7 @@ class RPBChessboardModelBlockPGN extends RPBChessboardAbstractModelBlock {
         $widgetArgs['nboAnimated']          = isset( $atts['nboAnimated'] ) ? 'true' === $atts['nboAnimated'] : $this->mainModel->getDefaultAnimated();
         $widgetArgs['nboMoveArrowVisible']  = isset( $atts['nboMoveArrowVisible'] ) ? 'true' === $atts['nboMoveArrowVisible'] : $this->mainModel->getDefaultShowMoveArrow();
         $widgetArgs['nboMoveArrowColor']    = isset( $atts['nboMoveArrowColor'] ) ? $atts['nboMoveArrowColor'] : $this->mainModel->getDefaultMoveArrowColor();
+        $widgetArgs['nboSound']             = isset( $atts['nboSound'] ) ? 'true' === $atts['nboSound'] : $this->mainModel->getDefaultPlaySound();
 
         // Specific options for the diagrams.
         $widgetArgs['idoSquareSize']        = isset( $atts['idoSquareSize'] ) ? $atts['idoSquareSize'] : $this->mainModel->getDefaultSquareSize( 'ido' );

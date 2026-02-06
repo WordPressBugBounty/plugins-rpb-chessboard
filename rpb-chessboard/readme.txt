@@ -2,7 +2,7 @@
 Contributors: yo35
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YHNERW43QN49E
 Tags: chess, chessboard, fen, pgn, games
-Tested up to: 6.8
+Tested up to: 6.9
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -85,10 +85,19 @@ Please [contact the author](mailto:yo35@melix.net) for this.
 
 == Changelog ==
 
-= 8.0.6 (June 22, 2024) =
+= 8.1.0 (January 25, 2026) =
+* Add sound effects to navigation board.
+
+= 8.0.8 (January 1, 2026) =
+* Minor fixes.
+
+= 8.0.7 (December 17, 2025) =
+* Tested up to WordPress 6.9.
+
+= 8.0.6 (June 22, 2025) =
 * Upgrade Italian translation (thanks to Andrea Cuccarini).
 
-= 8.0.5 (April 21, 2024) =
+= 8.0.5 (April 21, 2025) =
 * Tested up to WordPress 6.8.
 * Fix drag-drop not working in the diagram editor as of WordPress 6.8.
 

@@ -2,7 +2,7 @@
 /******************************************************************************
  *                                                                            *
  *    This file is part of RPB Chessboard, a WordPress plugin.                *
- *    Copyright (C) 2013-2025  Yoann Le Montagner <yo35 -at- melix.net>       *
+ *    Copyright (C) 2013-2026  Yoann Le Montagner <yo35 -at- melix.net>       *
  *                                                                            *
  *    This program is free software: you can redistribute it and/or modify    *
  *    it under the terms of the GNU General Public License as published by    *
@@ -29,14 +29,14 @@ Author: Yoann Le Montagner
 Author URI: https://github.com/yo35
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Requires at least: 6.8
+Requires at least: 6.9
 Requires PHP: 7.2
-Version: 8.0.6
+Version: 8.1.0
 */
 
 // Plugin version
 // WARNING: must corresponds to what is defined in the plugin header. Do NOT use `get_plugin_data(..)` (see #240).
-define( 'RPBCHESSBOARD_VERSION', '8.0.6' );
+define( 'RPBCHESSBOARD_VERSION', '8.1.0' );
 
 // Directories
 define( 'RPBCHESSBOARD_ABSPATH', plugin_dir_path( __FILE__ ) );

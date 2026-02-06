@@ -2,7 +2,7 @@
 /******************************************************************************
  *                                                                            *
  *    This file is part of RPB Chessboard, a WordPress plugin.                *
- *    Copyright (C) 2013-2025  Yoann Le Montagner <yo35 -at- melix.net>       *
+ *    Copyright (C) 2013-2026  Yoann Le Montagner <yo35 -at- melix.net>       *
  *                                                                            *
  *    This program is free software: you can redistribute it and/or modify    *
  *    it under the terms of the GNU General Public License as published by    *
@@ -35,6 +35,7 @@ class RPBChessboardModelPostActionSettingsChessGame extends RPBChessboardAbstrac
         self::updateBooleanParameter( 'animated' );
         self::updateBooleanParameter( 'showMoveArrow' );
         self::updateMoveArrowColor();
+        self::updateBooleanParameter( 'playSound' );
         self::updateBooleanParameter( 'showPlayButton' );
         self::updateBooleanParameter( 'showFlipButton' );
         self::updateBooleanParameter( 'showDownloadButton' );
@@ -54,6 +55,7 @@ class RPBChessboardModelPostActionSettingsChessGame extends RPBChessboardAbstrac
         self::deleteParameter( 'animated' );
         self::deleteParameter( 'showMoveArrow' );
         self::deleteParameter( 'moveArrowColor' );
+        self::deleteParameter( 'playSound' );
         self::deleteParameter( 'showPlayButton' );
         self::deleteParameter( 'showFlipButton' );
         self::deleteParameter( 'showDownloadButton' );

@@ -2,7 +2,7 @@
 /******************************************************************************
  *                                                                            *
  *    This file is part of RPB Chessboard, a WordPress plugin.                *
- *    Copyright (C) 2013-2025  Yoann Le Montagner <yo35 -at- melix.net>       *
+ *    Copyright (C) 2013-2026  Yoann Le Montagner <yo35 -at- melix.net>       *
  *                                                                            *
  *    This program is free software: you can redistribute it and/or modify    *
  *    it under the terms of the GNU General Public License as published by    *
@@ -114,6 +114,7 @@ class RPBChessboardModelInitScript {
             'animated'              => $this->mainModel->getDefaultAnimated(),
             'moveArrowVisible'      => $this->mainModel->getDefaultShowMoveArrow(),
             'moveArrowColor'        => $this->mainModel->getDefaultMoveArrowColor(),
+            'sound'                 => $this->mainModel->getDefaultPlaySound(),
             'pieceSymbols'          => $this->mainModel->getDefaultPieceSymbols(),
             'navigationBoard'       => $this->mainModel->getDefaultNavigationBoard(),
             'playButtonVisible'     => $this->mainModel->getDefaultShowPlayButton(),
@@ -251,6 +252,7 @@ class RPBChessboardModelInitScript {
             'PGN_EDITOR_CONTROL_INITIAL_SELECTION'    => __( 'Initial selection', 'rpb-chessboard' ),
             'PGN_EDITOR_CONTROL_ANIMATED'             => __( 'Move animation', 'rpb-chessboard' ),
             'PGN_EDITOR_CONTROL_MOVE_ARROW'           => __( 'Move arrow', 'rpb-chessboard' ),
+            'PGN_EDITOR_CONTROL_SOUND_EFFECTS'        => __( 'Sound effects', 'rpb-chessboard' ),
             'PGN_EDITOR_CONTROL_PLAY_BUTTON'          => __( 'Play/stop button', 'rpb-chessboard' ),
             'PGN_EDITOR_CONTROL_FLIP_BUTTON'          => __( 'Flip button', 'rpb-chessboard' ),
             'PGN_EDITOR_CONTROL_DOWNLOAD_BUTTON'      => __( 'Download button', 'rpb-chessboard' ),
