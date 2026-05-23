@@ -2,7 +2,7 @@
 Contributors: yo35
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YHNERW43QN49E
 Tags: chess, chessboard, fen, pgn, games
-Tested up to: 6.9
+Tested up to: 7.0
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -84,6 +84,10 @@ Please [contact the author](mailto:yo35@melix.net) for this.
 
 
 == Changelog ==
+
+= 8.1.1 (May 23, 2026) =
+* Tested up to WordPress 7.0.
+* Minor fixes.
 
 = 8.1.0 (January 25, 2026) =
 * Add sound effects to navigation board.
