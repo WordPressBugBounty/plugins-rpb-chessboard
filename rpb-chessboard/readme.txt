@@ -1,6 +1,6 @@
 === RPB Chessboard ===
 Contributors: yo35
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YHNERW43QN49E
+Donate link: https://www.paypal.com/donate/?hosted_button_id=YHNERW43QN49E
 Tags: chess, chessboard, fen, pgn, games
 Tested up to: 7.0
 Stable tag: trunk
@@ -84,6 +84,9 @@ Please [contact the author](mailto:yo35@melix.net) for this.
 
 
 == Changelog ==
+
+= 8.1.2 (June 21, 2026) =
+* Fix minor PGN parsing issue (see https://github.com/yo35/kokopu/issues/64).
 
 = 8.1.1 (May 23, 2026) =
 * Tested up to WordPress 7.0.
